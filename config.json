@@ -12,9 +12,9 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "GoatBot",
-  "prefix": "-",
-  "api": "https://www.noobs-api.rf.gd/dipto",
+  "nickNameBot": "BabyBot",
+  "prefix": "!",
+  "api": "https://api.noobs-api.rf.gd/dipto",
   "approval": false,
   "reactBy": {
     "delete": [
@@ -37,7 +37,7 @@
     "61552258402755"
   ],
   "whiteListMode": {
-    "enable": true,
+    "enable": false,
     "whiteListIds": [
       "61552258402755",
       "100044327656712"
@@ -45,7 +45,7 @@
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
   "whiteListModeThread": {
-    "enable": true,
+    "enable": false,
     "whiteListThreadIds": [
       "24974557655524033"
     ],
@@ -81,7 +81,7 @@
     "enable": false,
     "port": 3001,
     "socket": {
-      "enable": true,
+      "enable": false,
       "channelName": "uptime",
       "verifyToken": ""
     }
@@ -102,11 +102,11 @@
     "ignoreEvents": "",
     "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
   },
-  "autoRefreshFbstate": true,
+  "autoRefreshFbstate": false,
   "autoReloginWhenChangeAccount": false,
   "autoRestartWhenListenMqttError": false,
   "restartListenMqtt": {
-    "enable": true,
+    "enable": false,
     "timeRestart": 3600000,
     "delayAfterStopListening": 2000,
     "logNoti": true,
@@ -157,8 +157,8 @@
     "updatePresence": true,
     "listenTyping": true,
     "logLevel": "error",
-    "selfListen": true,
-    "selfListenEvent": true,
+    "selfListen": false,
+    "selfListenEvent": false,
     "autoMarkDelivery": false,
     "autoReconnect": false,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
