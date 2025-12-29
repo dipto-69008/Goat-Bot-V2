@@ -12,7 +12,7 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "BabyBot",
+  "nickNameBot": "Sumaiya Bot",
   "prefix": "!",
   "api": "https://api.noobs-api.rf.gd/dipto",
   "approval": false,
@@ -31,10 +31,10 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61552258402755"
+    "61584667752222"
   ],
   "mainAdmin": [
-    "61552258402755"
+    "61584667752222"
   ],
   "whiteListMode": {
     "enable": false,
